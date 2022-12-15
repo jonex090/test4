@@ -10,12 +10,37 @@ body{
     justify-content: space-between;
 }
 
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style-type: none;
+    padding-left: 20px;
+    color: white;
+}
+
 a {
+    background-color: orange;
+    padding: 10px 25px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
 }
 
 .container-for-text {
     background-color: orange;
     display: flex;
     justify-content: center;
+}
+
+.container-main{
+    background-color: white;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 20px;
 }
