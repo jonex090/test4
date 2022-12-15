@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(53, 54, 58);
     padding: 0;
     margin: 0;
-    padding: 10px 200px;
 }
 
 .container {
+    background-color: grey;
+    padding: 10px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -18,16 +18,25 @@ ul{
 li{
     list-style-type: none;
     padding-left: 20px;
-    color: white;
+    
 }
 
-a {
+.a1 {
     background-color: orange;
-    padding: 10px 25px;
+    padding: 10px 20px;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 40px;
+    border: 0px;
+}
+a{
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .container-for-text {
@@ -37,8 +46,7 @@ a {
 }
 
 .container-main{
-    background-color: white;
-    padding: 20px 0;
+    padding: 10px 200px;
 }
 
 p {
