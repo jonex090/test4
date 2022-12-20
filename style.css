@@ -1,74 +1,71 @@
-body{
-    padding: 0;
-    margin: 0;
+body {
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    background-color: grey;
-    padding: 10px 200px;
-    display: flex;
-    justify-content: space-between;
+  background-color: grey;
+  padding: 10px 200px;
+  display: flex;
+  justify-content: space-between;
 }
 
-ul{
-    display: flex;
-    
+ul {
+  display: flex;
 }
 
-li{
-    list-style-type: none;
-    padding-left: 20px;
-    
+li {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
 .a1 {
-    background-color: orange;
-    padding: 10px 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 40px;
-    border: 0px;
+  background-color: orange;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+  border: 0px;
 }
-a{
-    padding: 10px 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+a {
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .container-for-text {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
 }
 
-.container-main{
-    padding: 10px 200px;
+.container-main {
+  padding: 10px 200px;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.contact{
-    text-align: center;
+.contact {
+  text-align: center;
 }
 
-footer{ 
-    position:fixed;
-    width: 99%;
-    bottom:0;
-    left:0;
-    padding: 15px;
-    background-color: orange;
-    display: flex;
-    justify-content: space-between;
-  }
+footer {
+  position: fixed;
+  width: 99%;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .footer {
-    margin: 20px;
-  }
-
+.footer {
+  margin: 20px;
+}
